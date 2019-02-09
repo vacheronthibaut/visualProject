@@ -55,6 +55,7 @@ C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\bin\Debug\System.
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\bin\Debug\System.ServiceModel.Internals.pdb
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\bin\Debug\System.Web.Services.pdb
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\bin\Debug\Mono.Security.pdb
+C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\bin\Debug\App1.dll.mdb
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\obj\Debug\81\linksrc\App1.Android.pdb
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\obj\Debug\81\linksrc\Mono.Android.pdb
@@ -77,7 +78,6 @@ C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\obj\Debug\81\link
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\obj\Debug\81\linksrc\Mono.Security.pdb
-C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\bin\Debug\App1.dll.mdb
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\obj\Debug\81\linksrc\App1.dll.mdb
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\obj\Debug\81\android\assets\App1.dll.mdb
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\obj\Debug\81\android\assets\App1.Android.pdb
@@ -102,4 +102,6 @@ C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\obj\Debug\81\andr
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\Vacheron thibaut\visualProject\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\bin\Debug\App1.dll.mdb
 C:\Users\Vacheron thibaut\visualProject\App1\App1\App1.Android\obj\Debug\81\linksrc\App1.dll.mdb

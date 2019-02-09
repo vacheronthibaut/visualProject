@@ -26,6 +26,18 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Storm.Mvvm.Forms/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/netstandard2.0/Storm.Mvvm.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Storm.Mvvm.Forms.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
@@ -190,6 +202,18 @@
         "netstandard.library.nuspec"
       ]
     },
+    "Storm.Mvvm.Forms/2.1.0": {
+      "sha512": "arwtqPq7+uvW4lCpA3zbWaviIBs/G/x/PsT1IVc6AlkMligUmrX9lxrDR504WVuZ1GXPxnuV7g55/qpGO85WzA==",
+      "type": "package",
+      "path": "storm.mvvm.forms/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Storm.Mvvm.Forms.dll",
+        "storm.mvvm.forms.2.1.0.nupkg.sha512",
+        "storm.mvvm.forms.nuspec"
+      ]
+    },
     "Xamarin.Forms/3.4.0.1008975": {
       "sha512": "tM9syeev45u92OFENGjq+Zw8WiEwLJFiXe317XpL9SY2RRk9sm2fc1lDVjzwz0da+5ZP5fi24NAPsPQdxBdMwQ==",
       "type": "package",
@@ -340,6 +364,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "Storm.Mvvm.Forms >= 2.1.0",
       "Xamarin.Forms >= 3.4.0.1008975"
     ]
   },
@@ -389,6 +414,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Storm.Mvvm.Forms": {
+            "target": "Package",
+            "version": "[2.1.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

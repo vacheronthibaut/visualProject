@@ -1,6 +1,7 @@
 App1
-System.Runtime
 FormsViewGroup
+Storm.Mvvm.Forms
+System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime

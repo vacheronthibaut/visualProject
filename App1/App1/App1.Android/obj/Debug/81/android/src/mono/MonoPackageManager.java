@@ -109,6 +109,7 @@ class MonoPackageManager_Resources {
 		"App1.Android.dll",
 		"App1.dll",
 		"FormsViewGroup.dll",
+		"Storm.Mvvm.Forms.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
