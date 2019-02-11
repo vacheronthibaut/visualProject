@@ -34,13 +34,14 @@ namespace App1.Model
         public void setall(DateTime value)
         {
             /*
-                    L'hiver actuel se terminera le mardi 19 mars 2019 => 2019,3,19
-                    Le printemps aura lieu du mercredi 20 mars au jeudi 20 juin 2019 => 2019,6,20
-                    L'été aura lieu du vendredi 21 juin au dimanche 22 septembre 2019 => 2019,9,22
-                    L'automne aura lieu du lundi 23 septembre au samedi 21 décembre 2019 => 2019,12,21
-                */
+            L'hiver actuel se terminera le mardi 19 mars 2019 => 2019,3,19
+            Le printemps aura lieu du mercredi 20 mars au jeudi 20 juin 2019 => 2019,6,20
+            L'été aura lieu du vendredi 21 juin au dimanche 22 septembre 2019 => 2019,9,22
+            L'automne aura lieu du lundi 23 septembre au samedi 21 décembre 2019 => 2019,12,21
+            */
 
             _Date = value;
+            SetProperty(ref _Date, value);
             DateTime hiver = new DateTime(2019, 3, 19);
             DateTime printemps = new DateTime(2019, 6, 20);
             DateTime ete = new DateTime(2019, 9, 22);
@@ -49,28 +50,46 @@ namespace App1.Model
             if (_Date < hiver)
             {
                 _Saisoncurent = "hiver";
+                SetProperty(ref _Saisoncurent, "hiver");
                 _ImageUrl = "Ressourses/winter.jpg";
-            }
-            if (_Date < printemps)
-            {
-                _Saisoncurent = "printemps";
-                _ImageUrl = "Ressourses/spring.jpg";
-            }
-            if (_Date < ete)
-            {
-                _Saisoncurent = "ete";
-                _ImageUrl = "Ressourses/summer.jpg";
-
-            }
-            if (_Date < automne)
-            {
-                _Saisoncurent = "automne";
-                _ImageUrl = "Ressourses/autumn.jpg";
+                SetProperty(ref _ImageUrl, "Ressourses/winter.jpg");
             }
             else
             {
-                _Saisoncurent = "hiver";
-                _ImageUrl = "Ressourses/winter.jpg";
+                if (_Date < printemps)
+                {
+                    _Saisoncurent = "printemps";
+                    SetProperty(ref _Saisoncurent, "printemps");
+                    _ImageUrl = "Ressourses/spring.jpg";
+                    SetProperty(ref _ImageUrl, "Ressourses/spring.jpg");
+                }
+                else
+                {
+                    if (_Date < ete)
+                    {
+                        _Saisoncurent = "ete";
+                        SetProperty(ref _Saisoncurent, "ete");
+                        _ImageUrl = "Ressourses/summer.jpg";
+                        SetProperty(ref _ImageUrl, "Ressourses/summer.jpg");
+                    }
+                    else
+                    {
+                        if (_Date < automne)
+                        {
+                            _Saisoncurent = "automne";
+                            SetProperty(ref _Saisoncurent, "automne");
+                            _ImageUrl = "Ressourses/autumn.jpg";
+                            SetProperty(ref _ImageUrl, "Ressourses/autumn.jpg");
+                        }
+                        else
+                        {
+                            _Saisoncurent = "hiver";
+                            SetProperty(ref _Saisoncurent, "hiver");
+                            _ImageUrl = "Ressourses/winter.jpg";
+                            SetProperty(ref _ImageUrl, "Ressourses/winter.jpg");
+                        }
+                    }
+                }
             }
         }
 
