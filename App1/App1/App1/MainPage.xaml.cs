@@ -33,29 +33,33 @@ namespace App1
             if (date < hiver)
             {
                 resultat.Text = "hiver";
-                monImage.Source = ImageSource.FromFile("Ressources.winter.jpg");
+                monImage.Source = "winter.jpg";
             }
             else
             {
                 if (date < printemps)
                 {
                     resultat.Text = "printemps";
+                    monImage.Source = "spring.jpg";
                 }
                 else
                 {
                     if (date < ete)
                     {
                         resultat.Text = "ete";
+                        monImage.Source = "summer.jpg";
                     }
                     else
                     {
                         if (date < automne)
                         {
                             resultat.Text = "automne";
+                            monImage.Source = "autumn.jpg";
                         }
                         else
                         {
                             resultat.Text = "hiver";
+                            monImage.Source = "winter.jpg";
                         }
                     }
                 }

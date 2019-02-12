@@ -5,9 +5,9 @@
              x:Class="App1.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
+        <!-- Place new controls here Cyka blyat -->
         <Image x:Name="monImage"
-               Source="App1.Ressources.winter.jpg"/>
+               Source="winter.jpg"/>
         <Label x:Name="resultat" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
