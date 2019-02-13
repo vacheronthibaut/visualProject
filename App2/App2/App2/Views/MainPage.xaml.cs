@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App2.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,11 +13,11 @@ namespace App2
         public MainPage()
         {
             InitializeComponent();
-        }  
+        }
 
-        public event void click()
+        private async void NextPage_ClickedAsync(object sender, EventArgs e)
         {
-            message.Text = "tu as click";
+            await Navigation.PushAsync(new Page1());
         }
     }
 }

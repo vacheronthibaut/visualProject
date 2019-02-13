@@ -1,19 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:App2"
              x:Class="App2.MainPage">
-
-    <StackLayout>
-        <Image x:Name="monImage"
-               Source="ciel.jpg"
-               HorizontalOptions="Center"/>
-        <Label  x:Name="message"
-                Text="in the sky" 
-                HorizontalOptions="Center" />
-        <Button x:Name="nextPage"
-                Clicked="click"
-                HorizontalOptions="Center"/>
-    </StackLayout>
+    <ContentPage.Content>
+        <StackLayout>
+            <Image  Source="ciel.jpg"/>
+            <Label  Text="in the sky" 
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
+            <Button Clicked="NextPage_ClickedAsync"
+                    Text="page Suivante"/>
+        </StackLayout>
+    </ContentPage.Content>
 
 </ContentPage>
