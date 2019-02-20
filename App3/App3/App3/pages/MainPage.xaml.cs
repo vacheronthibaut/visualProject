@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App3.Object;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +13,12 @@ namespace App3
         public MainPage()
         {
             InitializeComponent();
-            listView.ItemTemplate = new DataTemplate(typeof(CustomCell));
-           
+            listView.ItemsSource = ListeLieux.LL;
+        }
+
+        private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+
         }
     }
 }

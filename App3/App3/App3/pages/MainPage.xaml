@@ -4,23 +4,18 @@
              xmlns:local="clr-namespace:App3"
              x:Class="App3.MainPage">
 
-    <StackLayout>
+    <StackLayout    Padding="10,10,10,10">
         <!-- Place new controls here -->
         <Label Text="Voici la liste des lieux les plus proches à visiter :"/>
-        <ListView  x:Name="listView">
+        <ListView  x:Name="listView" ItemSelected="ListView_ItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout BackgroundColor="#eee"
-                        Orientation="Vertical">
-                            <StackLayout Orientation="Horizontal">
-                                <Image Source="{Binding image}" />
-                                <Label Text="{Binding title}"
-                                TextColor="#f35e20" />
-                                <Label Text="{Binding subtitle}"
-                                HorizontalOptions="EndAndExpand"
-                                TextColor="#503026" />
-                            </StackLayout>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="{Binding nomLieu}"
+                                   TextColor="#f35e20"/>
+                            <Label Text="{Binding descLieu}"
+                                   TextColor="#503026"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

@@ -102,4 +102,6 @@ C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\andr
 C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\Vacheron thibaut\visualProject\App3\App3\App3\bin\Debug\netstandard2.0\App3.dll
+C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\bin\Debug\App3.dll.mdb
 C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\linksrc\App3.dll.mdb
