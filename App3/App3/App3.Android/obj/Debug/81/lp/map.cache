@@ -1,6 +1,12 @@
 App3
-System.Runtime
 FormsViewGroup
+Newtonsoft.Json
+Plugin.Connectivity.Abstractions
+Plugin.Connectivity
+Storm.Mvvm.Forms
+System.Net.Http.Extensions
+System.Net.Http.Primitives
+System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime

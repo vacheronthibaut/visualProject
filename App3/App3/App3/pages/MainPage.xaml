@@ -6,16 +6,24 @@
 
     <StackLayout    Padding="10,10,10,10">
         <!-- Place new controls here -->
-        <Label Text="Voici la liste des lieux les plus proches à visiter :"/>
-        <ListView  x:Name="listView" ItemSelected="ListView_ItemSelected">
+        <Label x:Name="Titre" Text="Voici la liste des lieux les plus proches à visiter :"/>
+        <ListView  x:Name="listView" SelectionMode="None">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Orientation="Vertical">
-                            <Label Text="{Binding nomLieu}"
-                                   TextColor="#f35e20"/>
-                            <Label Text="{Binding descLieu}"
-                                   TextColor="#503026"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="{Binding image_id}"
+                                   WidthRequest ="100"
+                                   HeightRequest ="100"
+                                   MinimumHeightRequest ="100"
+                                   MinimumWidthRequest ="100"/>
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="{Binding title}"
+                                       TextColor="#f35e20"
+                                       />
+                                <Label Text="{Binding description}"
+                                       TextColor="#503026"/>
+                            </StackLayout>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

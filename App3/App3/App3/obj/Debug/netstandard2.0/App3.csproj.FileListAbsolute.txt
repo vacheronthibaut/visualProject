@@ -7,6 +7,7 @@ C:\Users\Vacheron thibaut\visualProject\App3\App3\App3\obj\Debug\netstandard2.0\
 C:\Users\Vacheron thibaut\visualProject\App3\App3\App3\bin\Debug\netstandard2.0\App3.deps.json
 C:\Users\Vacheron thibaut\visualProject\App3\App3\App3\bin\Debug\netstandard2.0\App3.dll
 C:\Users\Vacheron thibaut\visualProject\App3\App3\App3\bin\Debug\netstandard2.0\App3.pdb
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Vacheron thibaut\visualProject\App3\App3\App3\obj\Debug\netstandard2.0\App3.dll
 C:\Users\Vacheron thibaut\visualProject\App3\App3\App3\obj\Debug\netstandard2.0\App3.pdb
+C:\Users\Vacheron thibaut\visualProject\App3\App3\App3\obj\Debug\netstandard2.0\pages\Detail.xaml.g.cs
+C:\Users\Vacheron thibaut\visualProject\App3\App3\App3\obj\Debug\netstandard2.0\XamlC.stamp

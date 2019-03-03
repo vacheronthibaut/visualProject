@@ -1,0 +1,35 @@
+var request = HttpWebRequest.Create(string.Format(@"https://td-api.julienmialon.com/places"));
+            request.ContentType = "application/json";
+            request.Method = "GET";
+
+            using (HttpWebResponse response = request.GetResponse() as HttpWebResponse)
+            {
+                if (response.StatusCode != HttpStatusCode.OK)
+                    Console.Out.WriteLine("Error fetching data. Server returned status code: {0}", response.StatusCode);
+                using (StreamReader reader = new StreamReader(response.GetResponseStream()))
+                {
+                    var content = reader.ReadToEnd();
+                    if (string.IsNullOrWhiteSpace(content))
+                    {
+                        Console.WriteLine("Response contained empty body...");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Response Body: \r\n {0}", content);
+
+                        var lieu = new Lieu();
+                        var properties = JObject.Parse(content)["rxtermsProperties"];
+                        lieu.id = properties["id"].Value<int>();
+                        lieu.titre = properties["title"].Value<String>();
+                        lieu.description = properties["description"].Value<String>();
+                        lieu.image_id = properties["image_id"].Value<int>();
+                        lieu.latitude = properties["latitude"].Value<float>();
+                        lieu.longitude = properties["longitude"].Value<float>();
+                        
+                    }
+
+
+                    
+                    //Assert.NotNull(content);
+                }
+            }

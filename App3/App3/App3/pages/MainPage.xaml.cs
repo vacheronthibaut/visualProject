@@ -1,4 +1,7 @@
 ﻿using App3.Object;
+using App3.pages;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,12 +16,38 @@ namespace App3
         public MainPage()
         {
             InitializeComponent();
-            listView.ItemsSource = ListeLieux.LL;
+            getJson();
+            //listView.ItemsSource = ListeLieux.LL;
+            listView.ItemTapped += ListView_ItemTapped1;
         }
 
-        private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        public async void getJson()
         {
+            var client = new System.Net.Http.HttpClient();
+            var response = await client.GetAsync("https://td-api.julienmialon.com/places");
+            string listeplacejson = await response.Content.ReadAsStringAsync();
 
+            List<Place> listp = JObject.Parse(listeplacejson)["data"].ToObject<List<Place>>();
+            //Console.WriteLine("===================================maliste : " + listp[0].title + "=============================");
+
+
+            /*
+            ListPlace l = new ListPlace();
+            if (listeplacejson != "")
+            {
+                l = JsonConvert.DeserializeObject<ListPlace>(listeplacejson);
+            }
+            */
+
+            //listView.ItemsSource = l2.listep;
+
+        }
+
+        private void ListView_ItemTapped1(object sender, ItemTappedEventArgs e)
+        {
+            
+            var pagesuiv = new Detail();
+            Navigation.PushAsync(pagesuiv);
         }
     }
 }
