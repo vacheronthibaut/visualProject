@@ -4,12 +4,20 @@
              x:Class="App3.pages.Detail">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="{Binding Titre}"
-                HorizontalOptions="CenterAndExpand" />
-            <Image Source="{Binding Image}"
+            <Label Text="{Binding title}"
+                   HorizontalOptions="CenterAndExpand" 
+                   TextColor="#f35e20"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="distance :"
+                       TextColor="#503026"
+                       Margin="30,0,0,0"/>
+                <Label Text="{Binding distance}"/>
+            </StackLayout>
+            <Image Source="{Binding imagesource}"
                    HorizontalOptions="CenterAndExpand"/>
-            <Label Text="{Binding Description}"
-                  Margin="10,10,10,10"/>
+            <Label Text="{Binding description}"
+                  Margin="30,30,30,30"
+                  TextColor="#503026"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

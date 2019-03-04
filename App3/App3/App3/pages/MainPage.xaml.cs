@@ -1,53 +1,80 @@
-﻿using App3.Object;
-using App3.pages;
-using Newtonsoft.Json;
+﻿using App3.pages;
 using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Collections.ObjectModel;
+using App3.ViewModel;
+using Xamarin.Essentials;
+using System;
 
 namespace App3
 {
     public partial class MainPage : ContentPage
     {
+
+        private ObservableCollection<MainPageModel> model;
+        private int malongitude;
+
+
         public MainPage()
         {
             InitializeComponent();
-            getJson();
-            //listView.ItemsSource = ListeLieux.LL;
+            GetJson();
             listView.ItemTapped += ListView_ItemTapped1;
         }
+        
 
-        public async void getJson()
+        private void ListView_ItemTapped1(object sender, ItemTappedEventArgs e)
+        {
+            var pagesuiv = new Detail();
+            pagesuiv.BindingContext = e.Item;
+            Navigation.PushAsync(pagesuiv);
+        }
+
+        public async void GetJson()
         {
             var client = new System.Net.Http.HttpClient();
             var response = await client.GetAsync("https://td-api.julienmialon.com/places");
             string listeplacejson = await response.Content.ReadAsStringAsync();
 
-            List<Place> listp = JObject.Parse(listeplacejson)["data"].ToObject<List<Place>>();
-            //Console.WriteLine("===================================maliste : " + listp[0].title + "=============================");
-
-
-            /*
-            ListPlace l = new ListPlace();
-            if (listeplacejson != "")
+            model = JObject.Parse(listeplacejson)["data"].ToObject<ObservableCollection<MainPageModel>>();
+            for(int i = 0; i < model.Count; i++)
             {
-                l = JsonConvert.DeserializeObject<ListPlace>(listeplacejson);
+                model[i].imagesource = "https://td-api.julienmialon.com/images/" + model[i].image_id;
+                distance(i);
             }
-            */
-
-            //listView.ItemsSource = l2.listep;
-
+            
+            listView.ItemsSource = model;
         }
 
-        private void ListView_ItemTapped1(object sender, ItemTappedEventArgs e)
+        public async void distance(int i)
         {
-            
-            var pagesuiv = new Detail();
-            Navigation.PushAsync(pagesuiv);
+            try
+            {
+                var location = await Geolocation.GetLastKnownLocationAsync();
+
+                if (location != null)
+                {
+                    Console.WriteLine($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
+                }
+
+                model[i].distance = (int)Location.CalculateDistance(location, new Location(model[i].latitude, model[i].longitude), DistanceUnits.Kilometers);
+            }
+            catch (FeatureNotSupportedException fnsEx)
+            {
+                // Handle not supported on device exception
+            }
+            catch (FeatureNotEnabledException fneEx)
+            {
+                // Handle not enabled on device exception
+            }
+            catch (PermissionException pEx)
+            {
+                // Handle permission exception
+            }
+            catch (Exception ex)
+            {
+                // Unable to get location
+            }
         }
     }
 }

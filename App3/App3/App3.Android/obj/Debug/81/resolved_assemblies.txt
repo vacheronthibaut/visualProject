@@ -1,56 +1,59 @@
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\App3.Android.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\App3.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Java.Interop.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Mono.Android.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\mscorlib.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Plugin.Connectivity.Abstractions.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Plugin.Connectivity.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Storm.Mvvm.Forms.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Core.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Net.Http.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Net.Http.Extensions.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Net.Http.Primitives.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Xml.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Xml.Linq.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Runtime.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Annotations.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.UI.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Transition.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v4.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.CardView.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.Palette.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\netstandard.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Data.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Numerics.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Transactions.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Web.Services.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Runtime.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Threading.Tasks.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Threading.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Mono.Security.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Runtime.InteropServices.dll
-C:\Users\Vacheron thibaut\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Net.Primitives.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\App3.Android.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\App3.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Java.Interop.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Mono.Android.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\mscorlib.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Plugin.Connectivity.Abstractions.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Plugin.Connectivity.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Storm.Mvvm.Forms.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Core.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Net.Http.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Net.Http.Extensions.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Net.Http.Primitives.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Numerics.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Numerics.Vectors.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Xml.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Xml.Linq.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Runtime.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Annotations.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.UI.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.CustomTabs.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Transition.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v4.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.CardView.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.Palette.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Essentials.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\netstandard.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Data.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Transactions.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Web.Services.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Runtime.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Threading.Tasks.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Threading.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\Mono.Security.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Runtime.InteropServices.dll
+D:\Fichiers\Documents\GitHub\visualProject\App3\App3\App3.Android\obj\Debug\81\android\assets\System.Net.Primitives.dll
