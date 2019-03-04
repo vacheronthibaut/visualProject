@@ -16,7 +16,6 @@ namespace App3.pages
 		public Detail ()
 		{
 			InitializeComponent ();
-            //BindingContext = new DetailleModel(lieu);
 		}
 	}
 }
