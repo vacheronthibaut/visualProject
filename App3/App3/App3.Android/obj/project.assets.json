@@ -1330,20 +1330,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thibaut\\.nuget\\packages\\": {}
+    "C:\\Users\\Vacheron thibaut\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Fichiers\\Documents\\GitHub\\visualProject\\App3\\App3\\App3.Android\\App3.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Vacheron thibaut\\visualProject\\App3\\App3\\App3.Android\\App3.Android.csproj",
       "projectName": "App3.Android",
-      "projectPath": "D:\\Fichiers\\Documents\\GitHub\\visualProject\\App3\\App3\\App3.Android\\App3.Android.csproj",
-      "packagesPath": "C:\\Users\\thibaut\\.nuget\\packages\\",
-      "outputPath": "D:\\Fichiers\\Documents\\GitHub\\visualProject\\App3\\App3\\App3.Android\\obj\\",
+      "projectPath": "C:\\Users\\Vacheron thibaut\\visualProject\\App3\\App3\\App3.Android\\App3.Android.csproj",
+      "packagesPath": "C:\\Users\\Vacheron thibaut\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vacheron thibaut\\visualProject\\App3\\App3\\App3.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\thibaut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Vacheron thibaut\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1356,8 +1356,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "D:\\Fichiers\\Documents\\GitHub\\visualProject\\App3\\App3\\App3\\App3.csproj": {
-              "projectPath": "D:\\Fichiers\\Documents\\GitHub\\visualProject\\App3\\App3\\App3\\App3.csproj"
+            "C:\\Users\\Vacheron thibaut\\visualProject\\App3\\App3\\App3\\App3.csproj": {
+              "projectPath": "C:\\Users\\Vacheron thibaut\\visualProject\\App3\\App3\\App3\\App3.csproj"
             }
           }
         }

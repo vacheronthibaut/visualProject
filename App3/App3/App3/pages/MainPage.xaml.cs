@@ -51,12 +51,7 @@ namespace App3
             try
             {
                 var location = await Geolocation.GetLastKnownLocationAsync();
-
-                if (location != null)
-                {
-                    Console.WriteLine($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
-                }
-
+                
                 model[i].distance = (int)Location.CalculateDistance(location, new Location(model[i].latitude, model[i].longitude), DistanceUnits.Kilometers);
             }
             catch (FeatureNotSupportedException fnsEx)

@@ -849,23 +849,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thibaut\\.nuget\\packages\\": {},
+    "C:\\Users\\Vacheron thibaut\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Fichiers\\Documents\\GitHub\\visualProject\\App3\\App3\\App3\\App3.csproj",
+      "projectUniqueName": "C:\\Users\\Vacheron thibaut\\visualProject\\App3\\App3\\App3\\App3.csproj",
       "projectName": "App3",
-      "projectPath": "D:\\Fichiers\\Documents\\GitHub\\visualProject\\App3\\App3\\App3\\App3.csproj",
-      "packagesPath": "C:\\Users\\thibaut\\.nuget\\packages\\",
-      "outputPath": "D:\\Fichiers\\Documents\\GitHub\\visualProject\\App3\\App3\\App3\\obj\\",
+      "projectPath": "C:\\Users\\Vacheron thibaut\\visualProject\\App3\\App3\\App3\\App3.csproj",
+      "packagesPath": "C:\\Users\\Vacheron thibaut\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vacheron thibaut\\visualProject\\App3\\App3\\App3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\thibaut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Vacheron thibaut\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
