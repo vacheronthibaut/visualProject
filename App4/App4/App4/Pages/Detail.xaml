@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Pages.Detail">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding title}"
+                HorizontalOptions="CenterAndExpand" 
+                   TextColor="#f35e20"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Distance :"
+                       TextColor="#503026"
+                       Margin="30,0,0,0"/>
+                <Label Text="{Binding distance}"/>
+            </StackLayout>
+            <Image Source="{Binding imagesource}"
+                    HorizontalOptions="CenterAndExpand"/>
+            <Label Text="{Binding decription}"
+                   Margin="30,30,30,30"
+                   TextColor="#503026"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

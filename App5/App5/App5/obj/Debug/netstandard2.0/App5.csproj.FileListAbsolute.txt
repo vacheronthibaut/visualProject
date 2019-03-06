@@ -1,0 +1,14 @@
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\bin\Debug\netstandard2.0\App5.deps.json
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\bin\Debug\netstandard2.0\App5.pdb
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\App5.csprojAssemblyReference.cache
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\App5.csproj.CoreCompileInputs.cache
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\App5.AssemblyInfoInputs.cache
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\App5.AssemblyInfo.cs
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\App5.dll
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\App5.pdb
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\Page\Detail.xaml.g.cs
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\Page\MainPage.xaml.g.cs
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\Page\ConnexionInscription.xaml.g.cs
