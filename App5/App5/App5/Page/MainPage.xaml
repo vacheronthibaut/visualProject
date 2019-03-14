@@ -1,16 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+    
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App5"
              x:Class="App5.MainPage">
-
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="account" Order="Primary" Icon="baseline_account_box_black_18dp.png" Text="profil" Priority="1" Activated="PageAccount"/>
+        <ToolbarItem Name="addplace" Order="Primary" Icon="baseline_add_box_black_18dp.png" Text="nouveau lieu" Priority="2" Activated="PageAddPlace"/>
+    </ContentPage.ToolbarItems>
     <StackLayout Padding="10,10,10,10">
         <Label x:Name="titre_page" Text="Liste des lieux à visiter" HorizontalOptions="Center"/>
-        <ListView x:Name="listView" SelectionMode="None" RowHeight="100" ItemTapped="ListView_ItemTapped">
+        <ListView x:Name="listView" SelectionMode="None" RowHeight="125" ItemTapped="ListView_ItemTapped">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Orientation="Horizontal">
+                            <Label x:Name="id" Text="{Binding id}" IsVisible="False"/>
                             <Image Source="{Binding imagesource}"
                                     WidthRequest="100"
                                    HeightRequest="100"
@@ -22,7 +27,7 @@
                                            TextColor="#f35e20"/>
                                     <Label Text="Disctance : "
                                             TextColor="#503026"
-                                           Margin="50,0,0,0"/>
+                                           Margin="25,0,0,0"/>
                                     <Label Text="{Binding distance}"/>
                                 </StackLayout>
                                 <Label Text="{Binding description}"

@@ -1,5 +1,8 @@
-﻿using App5.Page;
+﻿using App5.Objet;
+using App5.Page;
 using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -8,6 +11,7 @@ namespace App5
 {
     public partial class App : Application
     {
+
         public App()
         {
             InitializeComponent();

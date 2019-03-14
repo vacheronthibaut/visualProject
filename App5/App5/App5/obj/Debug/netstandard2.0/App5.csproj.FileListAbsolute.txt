@@ -10,5 +10,8 @@ C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\
 C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\App5.pdb
 C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\Page\Detail.xaml.g.cs
 C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\Page\MainPage.xaml.g.cs
-C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\Page\ConnexionInscription.xaml.g.cs
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\Page\Views\Avis.xaml.g.cs
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\Page\Account.xaml.g.cs
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\Page\AddPlace.xaml.g.cs
+C:\Users\Vacheron thibaut\visualProject\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Page.Views.Avis">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="titre" Text="Avis :"
+                   HorizontalOptions="CenterAndExpand"
+                   Style="TitleStyle"
+                   FontAttributes="Bold"/>
+            <ScrollView>
+                <StackLayout x:Name="listsAvis"/>
+            </ScrollView>
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal">
+                    <Entry x:Name="nouveaucommentaire" Placeholder="your comments" PlaceholderColor="Olive" HorizontalOptions="StartAndExpand"/>
+                    <Button Text="Commenter" Clicked="Button_Clicked" />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

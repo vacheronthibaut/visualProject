@@ -14,6 +14,7 @@ namespace App5.Objet
         public double longitude { get; set; }
         public string imagesource { get; set; }
         public int distance { get; set; }
+        public List<Commentaire> comments { get; set; }
         public Place() { }
     }
 }

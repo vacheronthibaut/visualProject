@@ -3,11 +3,14 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:local="clr-namespace:TabbedPageWithNavigationPage;assembly=TabbedPageWithNavigationPage"
             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+            xmlns:views="clr-namespace:App5.Page.Views"
             x:Class="App5.Page.Detail">
+
     <ContentPage Icon="baseline_info_black_18dp.png">
         <ScrollView>
-        <StackLayout>
-                <Label  Text="{Binding title}"
+            <StackLayout>
+                <Label  x:Name="titredesc"
+                        Text="{Binding title}"
                         HorizontalOptions="CenterAndExpand" 
                         TextColor="#f35e20"
                         Margin="0,30"
@@ -27,15 +30,14 @@
             </StackLayout>
         </ScrollView>
     </ContentPage>
-
+    
+    
     <ContentPage Icon="baseline_my_location_black_18dp.png">
-        <StackLayout>
-            <maps:Map WidthRequest="320" HeightRequest="200"
-                      x:Name="MyMap"/>
-        </StackLayout>
+        <StackLayout x:Name="mymap"/>
     </ContentPage>
 
-    <ContentPage Icon="baseline_comment_black_18dp.png">
-        <Label Text="Les Avis"/>
-    </ContentPage>
+
+
+    <views:Avis Icon="baseline_comment_black_18dp.png" x:Name="contentAvis"/>
+
 </TabbedPage>
