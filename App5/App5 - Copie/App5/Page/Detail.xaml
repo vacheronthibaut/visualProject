@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:TabbedPageWithNavigationPage;assembly=TabbedPageWithNavigationPage"
+            xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+            xmlns:views="clr-namespace:App5.Page.Views"
+            x:Class="App5.Page.Detail">
+
+    <ContentPage Icon="baseline_info_black_18dp.png">
+        <ScrollView>
+            <StackLayout>
+                <Label  x:Name="titredesc"
+                        Text="{Binding title}"
+                        HorizontalOptions="CenterAndExpand" 
+                        TextColor="#f35e20"
+                        Margin="0,30"
+                        FontSize="Large"
+                        FontAttributes="Bold"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Distance :"
+                       TextColor="#503026"
+                       Margin="30,0,0,0"/>
+                <Label Text="{Binding distance}"/>
+            </StackLayout>
+            <Image Source="{Binding imagesource}"
+                    HorizontalOptions="CenterAndExpand"/>
+                <Label Text="{Binding description}"
+                   Margin="30,30,30,30"
+                   TextColor="#503026"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    
+    
+    <ContentPage Icon="baseline_my_location_black_18dp.png">
+        <StackLayout x:Name="mymap"/>
+    </ContentPage>
+
+
+
+    <views:Avis Icon="baseline_comment_black_18dp.png" x:Name="contentAvis"/>
+
+</TabbedPage>

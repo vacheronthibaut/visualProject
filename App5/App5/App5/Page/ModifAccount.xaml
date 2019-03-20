@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Page.ModifAccount">
+    <ContentPage.Content>
+        <StackLayout Padding="30,30,30,30" x:Name="modifInformations">
+            <Image x:Name="imageprofil" Source="{Binding imagesource}" HorizontalOptions="Center" WidthRequest="150" HeightRequest="150"/>
+            <Label Text="First name : "/>
+            <Entry x:Name="firstname" Text="{Binding first_name}"/>
+            <Label Text="Last name : "/>
+            <Entry x:Name="lastname" Text="{Binding last_name}"/>
+            <ScrollView Orientation="Horizontal"  HeightRequest="150" WidthRequest="150">
+                <StackLayout x:Name="photoProfil" Orientation="Horizontal"/>
+            </ScrollView>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                <ImageButton Source="baseline_add_photo_alternate_black_18dp.png" HorizontalOptions="End" Margin="2,2,2,2" Clicked="addphoto"/>
+                <ImageButton Source="baseline_add_a_photo_black_18dp.png" HorizontalOptions="End" Margin="2,2,2,2" Clicked="appphoto"/>
+            </StackLayout>
+            <Button Text="Modifier" HorizontalOptions="CenterAndExpand" Clicked="modifierprofil"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -12,19 +12,26 @@
   <uses-feature android:name="android.hardware.location.gps" android:required="false" />
   <uses-feature android:name="android.hardware.location.network" android:required="false" />
   <uses-permission android:name="com.techno.placenote.permission.MAPS_RECEIVE" />
+  <uses-permission android:name="android.permission.CAMERA" />
   <permission android:name="com.techno.placenote.permission.MAPS_RECEIVE" android:protectionLevel="signature" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-feature android:name="android.hardware.camera" android:required="false" />
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
   <application android:label="App5.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
     <service android:enabled="true" android:name="LocationService" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
-    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyA7bnyxMOcQ1b8qjpL6KkDXZuCmmvZ4oEM" />
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBdERnYSVG2_nQUVTyxYuvS9d8IIv3R008" />
+    <provider android:name="android.support.v4.content.FileProvider" android:authorities="com.companyname.App5.fileprovider" android:exported="false" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
+    </provider>
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="App5" android:theme="@style/MainTheme" android:name="md537b964d50752eb151e49beb14264f8e5.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:configChanges="orientation|screenSize" android:name="md54cd65ac53ae710bff80022afc423e0f3.MediaPickerActivity" />
     <service android:name="md5dcb6eccdc824e0677ffae8ccdde42930.KeepAliveService" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.BatteryBroadcastReceiver" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.EnergySaverBroadcastReceiver" />

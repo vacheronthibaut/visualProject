@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Page.ModifPwd">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Margin="30,30,30,30">
+            <Label Text="Modifiez votre password"
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Ancien password"/>
+            <Entry x:Name="oldPwd"/>
+            <Label Text="nouveau password"/>
+            <Entry x:Name="newPassword"/>
+            <Label Text="confirmation du nouveau password"/>
+            <Entry x:Name="confirmNewPassword"/>
+            <Button Text="Modifier" Clicked="Button_Clicked" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
