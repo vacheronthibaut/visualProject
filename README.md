@@ -3,16 +3,14 @@
 l'application :
   - connexion
   - inscription
-  |  - acceuil ( list des lieu )
-      | - description du lieu
-      | - localisation MAP
-      | - commentaire
-  
-      | - profil
-        | - modifier profil
-        |- modification du mot de passe
-      
-      | - ajouter lieu
+  - acceuil ( list des lieu )
+  - description du lieu
+  - localisation MAP
+  - commentaire
+  - profil
+  - modifier profil
+  - modification du mot de passe
+  - ajouter lieu
         
        
       
